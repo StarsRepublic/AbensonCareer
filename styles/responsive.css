@@ -1,0 +1,332 @@
+
+/* the max width reporesent the width-size of the current device the app is running on */
+
+
+/* body responsiveness */
+/* the purpose of the footer along with the body is to ignores the body's padding */
+@media (max-width: 600px) {
+    body{
+        padding: 0 20px;
+    }
+    footer{
+        left: -20px;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        padding: 0 10px;
+    }
+        footer {
+            left: -10px;
+        }
+}
+@media (max-width: 420px) {
+    body {
+        padding: 0 5px;
+    }
+        footer {
+            left: -5px;
+        }
+}
+/* end of body responsiveness */
+/* top menu responsiveness */
+
+@media (max-width: 1050px) {
+    #top-menu ul {
+            gap: 2em;
+        }
+}
+
+@media (max-width: 850px) {
+    #top-menu ul {
+        gap: 1em;
+    }
+         #top-menu ul li {
+             font-size: 0.8rem;
+         }
+}
+
+@media (max-width: 800px) {
+    #top-menu {
+        display: none;
+    }
+}
+
+/* end of top menu responsiveness */
+
+/* middle-menu responsiveness */
+@media (max-width:1050px) {
+    #middle-menu span{
+        display: none;
+    }
+}
+@media (max-width:1000px) {
+    #logo {
+        width: 200px;
+    }
+}
+@media (max-width:900px) {
+    #logo {
+        width: 150px;
+    }
+}
+
+@media (max-width:850px) {
+    #middle-menu .login {
+        display: none;
+    }
+}
+@media (max-width:800px) {
+    #search-field{
+        width: 50%;
+        max-width: 400px;
+    }
+        #search-field input{
+            width: 90%;
+        }
+}
+@media (max-width:600px) {
+    #middle-menu  {
+            gap: 1em
+        }
+    #logo {
+        width: 120px;
+    }
+    #search-field {
+        width: 70%;
+        max-width: 400px;
+    }
+    #search-field input {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 500px) {
+    #logo {
+            width: 100px;
+        }
+}
+/* end of middle menu responsiveness */
+
+/* bottom menu responsivenedd */
+@media (max-width: 800px) {
+    #bottom-menu{
+        display: none;
+    }
+}
+/* end of bottom menu responsivenss */
+
+
+@media (max-width: 800px) {
+    #hero-banner #wrapper h2 {
+            font-size: 2rem;
+    }
+    #hero-banner #wrapper p{
+        font-size: 1.2rem;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    #hero-absolute {
+        max-height: 70vh;
+    }
+    #hero-banner #wrapper{
+        padding-bottom: 0;
+    }
+    #hero-banner #wrapper p {
+        font-size: 1rem;
+        line-height: 1rem;
+        max-width: 90%;
+    }
+        #hero-banner #wrapper #hero-buttons{
+            margin: 1em 0;
+        }
+}
+
+@media (max-width: 390px) {
+    #hero-banner #wrapper h2 {
+        font-size: 1.8rem;
+    }
+
+    #hero-banner #wrapper p {
+        font-size: 1.1rem;
+        max-width: 80%;
+    }
+}
+
+/* end of hero-banner */
+
+/* about us */
+@media (min-width:1670px) {
+    #about-us .card p:last-child {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+}
+@media (max-width:1300px)
+{
+    #about-us .card p:last-child{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+}
+@media (max-width:1100px) {
+    #about-us .card p:last-child {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+@media (max-width: 1200px)
+{
+    #about-us p {
+        width: 95%;
+    }
+}
+@media (max-width: 1120px) {
+    #about-us p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 760px) {
+    #about-us p {
+        font-size: 0.9rem;
+    }
+        #about-us h2{
+            font-size: 2rem;
+        }
+}
+
+/* end of about us */
+
+/* teams */
+
+    @media (max-width:1050px){
+        #teams #cards .card .opening p {
+            font-size: 0.950rem;
+            line-height: 1rem;
+        }
+        #teams #cards .card .opening button{
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 800px){
+        #teams #cards .card{
+            width: calc(100vw / 3 - 10px);
+        }
+        #teams #cards .card .opening h4{
+            font-size: 1.2rem;
+        }
+        #teams #cards .card .opening{
+            padding: 1em;
+
+        }
+
+    }
+    @media (max-width: 750px) {
+        #teams #cards .card {
+            width: calc(100vw / 2 - 10px);
+        }
+    }
+    @media (max-width: 380px) {
+        #teams #cards .card .opening{
+            padding: 1em 0.3em;
+        }
+
+        #teams #cards .card{
+            aspect-ratio: 2 / 3.5;
+        }
+    }
+/* end of teams */
+
+
+/* featured job openings */
+@media (max-width: 1070px)
+{
+    #job-openings #wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 770px) {
+    #job-openings #wrapper {
+        grid-template-columns:  1fr;
+    }
+    #job-openings{
+        padding-bottom: 120px;
+    }
+   #job-openings #see-toggle{
+    display: grid;
+   }
+}
+/* end of job openings */
+
+/* socmeds */
+@media(max-width:800px)
+{
+    #socmed-list>div{
+        flex-direction: column;
+        gap: 0;
+    }
+        #socmed-list>div .text{
+            justify-content: center;
+            align-items: center;
+        }
+}
+/* end of socmed */
+
+/* footer */
+@media(max-width: 1550px){
+    footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #banner{
+        display: none;
+    }
+}
+
+@media(max-width: 1390px) {
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    #additional {
+        display: none;
+    }
+}
+@media(max-width: 1300px) {
+    .footer-final > div:first-child, .footer-final > div:last-child{
+        display: none;
+    }
+}
+
+@media(max-width: 500px) {
+    #footer *{
+        padding: 0%;
+        margin: 0;
+        height: 0;
+        min-height: 0;
+        display: grid;
+        place-items: center;
+    }
+    .border{
+        display: none;
+    }
+
+    .footer-final{
+      width: 100%;
+      position: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin-bottom: 1em;
+      border: none;
+    }
+    .footer-final  {
+        line-height: 1.3rem;
+        text-align: center;
+    }
+    #connect{
+        display: none;
+    }
+}
