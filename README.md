@@ -11,6 +11,7 @@ I created this Abenson Career landing page as a skill test requiremenet for Aben
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Notes] (#notes)
 - [Contact](#contact)
 
 ---
@@ -57,6 +58,14 @@ Follow these steps to set up the project locally:
 - Use the Submit Button to navigate directly to the email form for job applications.
 
 ---
+
+## Notes
+
+- This landing page has a functional buttons. 
+- It also has a working validation contact form.
+- Its responsive across different devices.
+- I also changed some designs according to my personal preference. 
+- For JavaScript, I added as much comments as I can to make it clear.
 
 ## Contact
 

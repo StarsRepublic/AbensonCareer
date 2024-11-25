@@ -43,8 +43,8 @@ $(document).ready(function () {
 
 // Iterate over each input field inside elements with the class 'input'
 $('.input input').each(function () {
-    const $input = $(this); // Cache the current input element as a jQuery object
-    const $label = $input.prev('label'); // Select the previous sibling label element
+    const $input = $(this);
+    const $label = $input.prev('label');
 
     // Event listener for when the input loses focus
     $input.on('blur', function () {
@@ -119,12 +119,6 @@ $('.input input').each(function () {
 
         // If the form is valid, submit the form (replace this with actual form submission)
         if (isValid) {
-            // You can submit the form or make an AJAX request here
-            // For example:
-            // $('form').submit(); // Or, if you are using AJAX:
-            // $.post('your-api-endpoint', $('form').serialize(), function(response) {
-            //    console.log(response);
-            // });
             alert('Form is valid!');
         }
     });
