@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Patrick Danganan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abenson Careers</title>
     <link rel="stylesheet" href="./styles/style.css">
@@ -83,8 +84,8 @@
                     We’re here to make people happy through technology. Be a part of a high performance team and grow your career with us.
                 </p>
                 <div id="hero-buttons">
-                    <button>Openings</button>
-                    <button>Submit</button>
+                    <button onclick="openAbensonCareer()" type="button">Openings</button>
+                    <a href="#email"><button href="#email">Submit</button></a>
                 </div>
             </div>
           </div>
@@ -177,7 +178,7 @@
                             dazzle and
                             delight.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -196,7 +197,7 @@
                         <p>
                             Managing our awesome mobile app and loyalty program to keep you coming back for more!
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -215,7 +216,7 @@
                             Conceptualizing campaigns, creating content, shooting fun videos, and optimizing paid media across Facebook, Instagram,
                             TikTok, and more!
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -232,7 +233,7 @@
                         <p>
                             Mastering cutting-edge software, eCommerce innovation, and AWS cloud for stellar online experiences.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -249,7 +250,7 @@
                         <p>
                             Delivering smiles with timely deliveries and top-notch service, making every delivery a happy moment.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -266,7 +267,7 @@
                         <p>
                             Innovating and automating omnichannel projects for seamless and efficient solutions.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -285,7 +286,7 @@
                         <p>
                             Managing order fulfillment, handling inquiries, and converting sales through our dedicated online Personal Shoppers.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -302,7 +303,7 @@
                         <p>
                             Ensuring accurate products, pricing, and promos, while expanding categories and brands to help customers decide.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button"> 
                             Check for openings
                         </button>
                     </div>
@@ -320,7 +321,7 @@
                         <p>
                             Turning data into insights and decisions, making sense of numbers for smarter choices.
                         </p>
-                        <button>
+                        <button onclick="openAbensonCareer()" type="button">
                             Check for openings
                         </button>
                     </div>
@@ -406,7 +407,7 @@
             </div>
         </div>
 
-
+    <div id="email">
     <form action="">
         <h2>Not on the List?</h2>
         <p id="desc">Send us your resume here!</p>
@@ -434,7 +435,7 @@
     
         <button type="submit" id="submit">Submit</button>
     </form>
-
+</div>
     <!-- end of email -->
 
     <!-- social medias -->
@@ -444,7 +445,6 @@
             <div>
                 <img src="./assets/fb.png" alt="Facebook">
                 <div class="text">
-
                     <p>Facebook</p>
                     <p>Abenson Careers</p>
                 </div>
@@ -579,5 +579,10 @@
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./scripts/index.js"></script>
+    <script>
+        function openAbensonCareer() {
+            window.open('https://recruitment.dataon.com/abensongroup/#', '_blank');
+        }
+    </script>
     </body>
 </html>
